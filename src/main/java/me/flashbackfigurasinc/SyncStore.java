@@ -2,7 +2,7 @@ package me.flashbackfigurasinc;
 
 import com.moulberry.flashback.Flashback;
 import net.minecraft.network.NetworkPhase;
-import net.minecraft.network.packet.s2c.custom.CustomPayloadS2CPacket;
+import net.minecraft.network.packet.s2c.common.CustomPayloadS2CPacket;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
