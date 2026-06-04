@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "flashbackfigurasinc",
+	"version": "${version}",
+	"name": "FlashbackFiguraSinc",
+	"description": "Записывает состояние Figura-аватара (эмоция/пресет/настройки глаз) в реплеи Flashback.",
+	"authors": [
+		"Famose"
+	],
+	"contact": {},
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"me.flashbackfigurasinc.FlashbackFiguraSinc"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"figura": "*",
+		"flashback": "*"
+	}
+}
