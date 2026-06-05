@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "me.flashbackfigurasinc.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"MixinExportJob",
+		"MixinTimeController"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
